@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on 骑马射箭翻跟头</title>
+    <link>http://dreamerway.github.io/categories/development/</link>
+    <description>Recent content in Development on 骑马射箭翻跟头</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://dreamerway.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>socket的本质</title>
+      <link>http://dreamerway.github.io/socket/</link>
+      <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://dreamerway.github.io/socket/</guid>
+      <description>  socket是网络编程最最基础的东西，相信每一个有网络编程相关经历的同学都知道它是什么，并且知道bind/listen/accept/connect等等socket api，我们可以通过这些api轻松写出一个简陋的服务器或者是客户端，另外，我们也经常说tcp建立连接需要三次握手，断开连接需要四次挥手，而udp不需要建立连接，直接发送数据，而这些课本上的知识跟我们在实际中编写代码用到的socket api有什么关系呢？这篇文章想从代码的角度来重新理解一下tcp/ip协议栈以及端口号相关问题。
+ 一、tcp/ip 1.tcp/ip协议栈 2.tcp/ip本质 二、socket 1.socket与进程 2.socket与端口 3.socket与客户服务器模式 4.socket详细过程 </description>
+    </item>
+    
+    <item>
+      <title>你好，Hugo</title>
+      <link>http://dreamerway.github.io/welcome/</link>
+      <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://dreamerway.github.io/welcome/</guid>
+      <description>这是hugo搭建站点的第一篇文章，新的开始，加油</description>
+    </item>
+    
+  </channel>
+</rss>

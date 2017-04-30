@@ -1,0 +1,82 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.20.6" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>socket的本质 &middot; 骑马射箭翻跟头</title>
+  
+
+  
+  <link rel="stylesheet" href="http://dreamerway.github.iocss/poole.css">
+  <link rel="stylesheet" href="http://dreamerway.github.iocss/syntax.css">
+  <link rel="stylesheet" href="http://dreamerway.github.iocss/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="骑马射箭翻跟头" />
+</head>
+
+	<body class="theme-base-0d ">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+	  <div style="text-align: center;margin-bottom:10rem"><a class="logo" href="/"> <img src="/haha.jpg" class="logopic"> </a></div>
+      <a href="http://dreamerway.github.io"><h2>骑马射箭翻跟头</h2></a>
+      <p class="lead">
+       --走走停停 
+      </p>
+    </div>
+
+
+
+    <span style="font-size:15px">&copy; 2017. All rights reserved. </span>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>socket的本质</h1>
+			  <span class="post-date">Sat, Apr 29, 2017</span>
+			      
+
+<blockquote>
+<p>socket是网络编程最最基础的东西，相信每一个有网络编程相关经历的同学都知道它是什么，并且知道bind/listen/accept/connect等等socket api，我们可以通过这些api轻松写出一个简陋的服务器或者是客户端，另外，我们也经常说tcp建立连接需要三次握手，断开连接需要四次挥手，而udp不需要建立连接，直接发送数据，而这些课本上的知识跟我们在实际中编写代码用到的socket api有什么关系呢？这篇文章想从代码的角度来重新理解一下tcp/ip协议栈以及端口号相关问题。</p>
+</blockquote>
+
+<h2 id="一-tcp-ip">一、tcp/ip</h2>
+
+<h4 id="1-tcp-ip协议栈">1.tcp/ip协议栈</h4>
+
+<p><img src="http://images.cnitblog.com/blog/349217/201312/05230830-04807bb739954461a8bfc7513707f253.jpg" alt="" />
+<img src="http://images.cnitblog.com/blog/349217/201312/05221430-6bd4ce2a2cf7434ca9216c0a5b6a0985.png" alt="" /></p>
+
+<h4 id="2-tcp-ip本质">2.tcp/ip本质</h4>
+
+<h2 id="二-socket">二、socket</h2>
+
+<h4 id="1-socket与进程">1.socket与进程</h4>
+
+<h4 id="2-socket与端口">2.socket与端口</h4>
+
+<h4 id="3-socket与客户服务器模式">3.socket与客户服务器模式</h4>
+
+<h4 id="4-socket详细过程">4.socket详细过程</h4>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>
